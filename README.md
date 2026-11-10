@@ -11,7 +11,7 @@ The compiled detection component (`malicious_cron.yar`) strips away volatile fil
 rule Linux_Scheduled_Reverse_Shell {
     meta:
         description = "Detects interactive bash reverse shell artifacts hidden inside system cron job configurations"
-        author = "Your Name"
+        author = "Keji"
         threat_level = "Critical"
         framework_mapping = "MITRE ATT&CK T1053.003 (Scheduled Task/Job: Cron)"
     strings:
